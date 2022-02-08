@@ -212,11 +212,13 @@ nav ul li a {
 .top-section h2 {
   font-size: 18px;
   line-height: 23px;
+  margin: 40px 20px;
 }
 
 .top-section p {
     line-height: 25px;
     font-size: 16px;
+    margin: 40px 20px;
 }
 
 h3 {
@@ -258,6 +260,7 @@ footer h2 span {
   margin: 0px;
   padding-bottom: 20px;
 }
+
 
 
 /****About****/
