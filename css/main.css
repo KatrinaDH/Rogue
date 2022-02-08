@@ -5,29 +5,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/***** GRID *****/
 
-.full-width {
-    margin: 0 auto;
-    width: 1200px;
-}
 
-.section-one, .section-two{
-    height: auto;
-    float: left;
-    width: 340px;
-}
-
-.section-three{
-  height: auto;
-  float: left;
-  width: 338px;
-}
-
-.third-width {
-  float: left;
-  width: 400px;
-}
 /***** HEADER *****/
 
 header h1 {
@@ -46,12 +25,18 @@ header h1 span {
 header img {
     border-bottom: 4px solid #77a466;
     border-top: 4px solid #77a466;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 
 nav {
+    padding: 15px 10px;
     display: flex;
-    padding: 15px 15px;
+    justify-content: flex-end;
 }
 
 nav ul li {
@@ -63,7 +48,7 @@ nav ul li a {
     font-size: 40px;
     font-weight: 700;
     line-height: 23px;
-    padding-left: 40px;
+    padding-left: 10px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -76,15 +61,17 @@ nav ul li a {
 
 .top-section h2 {
     color: #77a466;
-    line-height: 23px;
-    font-size: 18px;
+    line-height: 50px;
+    font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 40px 50px;
 }
 
 .top-section p {
-    line-height: 23px;
-    font-size: 16px;
+    line-height: 50px;
+    font-size: 50px;
+    margin: 40px 50px;
 }
 
 /***** BOTTOM-SECTION *****/
@@ -94,7 +81,7 @@ nav ul li a {
 }
 
 .section-two, .section-three {
-    padding: 30px 30px;
+    padding: 20px 50px;
 }
 
 .section-two {
@@ -103,7 +90,7 @@ nav ul li a {
 }
 
 .section-one {
-    padding: 30px 30px 30px 0;
+    padding: 20px 50px;
 }
 
 ul#menu {
@@ -113,39 +100,37 @@ ul#menu {
 
 #menu li {
     color: #77a466;
-    font-size: 16px;
-    float: left;
-    line-height: 18px;
+    font-size: 50px;
+    line-height: 50px;
     list-style: none;
-    margin:12px 0;
-    width: 340px;
+    margin: 20px;
+    display: flex;
+
   }
 
 h3 {
-  font-size: 12px;
+  font-size: 50px;
   font-weight: 700;
-  line-height: 25px;
+  line-height: 60px;
   text-transform: uppercase;
   margin: 0 0 12px 0;
 }
 
 #reviews, #contact {
-    font-size: 16px;
-    line-height: 21px;
-    padding: 0;
-    margin: 0;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 20px;
 }
 
 /*****Footer*****/
 
 footer .full-width {
     border-top: 1px solid #dedbdc;
-    clear: both;
 }
 
 footer h2{
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 40px;
+    line-height: 40px;
     padding: 15px 0;
     text-align: center;
     text-transform: uppercase;
@@ -154,7 +139,7 @@ footer h2{
 footer h2 span{
     color: #77a466;
     font-family: 'Galada', cursive;
-    font-size: 16px;
+    font-size: 40px;
     text-transform: lowercase;
 }
 
@@ -162,21 +147,19 @@ footer h2 span{
 
 .updates h1 {
   color: #77a466;
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: 700;
-  float: left;
   line-height: 23px;
   padding: 10px 10px;
   text-transform: uppercase;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 .updates p {
-  clear: both;
-  font-size: 25px;
+  font-size: 50px;
   font-family: 'Galada';
   text-align: center;
-  margin: 50px 0;
+  margin: 50px 50px;
 }
 
 #locations {
@@ -184,16 +167,14 @@ footer h2 span{
 }
 
 #locations h3 {
-    font-size:  20px;
+    font-size:  50px;
     line-height: 32px;
-    margin: 0 auto;
-    width: 190px;
+    margin-top: 100px;
 }
 #locations p {
     font-family:'Montserrat', sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0;
+    font-size: 50px;
+    line-height: 40px;
 }
 
 /***** ABOUT *****/
@@ -212,11 +193,34 @@ footer h2 span{
 }
 
 .about-two p {
-  font-size: 3rem;
+  font-size: 50px;
   padding: 20px 50px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1200px) {
+
+/***  .full-width {
+      margin: 0 auto;
+      width: 1200px;
+  }
+
+  .section-one, .section-two{
+      height: auto;
+      float: left;
+      width: 340px;
+  }
+
+  .section-three{
+    height: auto;
+    float: left;
+    width: 338px;
+  }
+
+  .third-width {
+    float: left;
+    width: 400px;
+  } ***/
 
 nav ul li a {
   font-size: 1rem;
