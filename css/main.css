@@ -50,7 +50,7 @@ header img {
 
 
 nav {
-    float: right;
+    display: flex;
     padding: 15px 15px;
 }
 
@@ -60,7 +60,7 @@ nav ul li {
 
 nav ul li a {
     color: #77a466;
-    font-size: 14px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 23px;
     padding-left: 40px;
@@ -162,7 +162,7 @@ footer h2 span{
 
 .updates h1 {
   color: #77a466;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 700;
   float: left;
   line-height: 23px;
@@ -194,4 +194,49 @@ footer h2 span{
     font-size: 18px;
     line-height: 30px;
     padding: 0;
+}
+
+/***** ABOUT *****/
+.about-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-one h2 {
+  font-size: 4rem;
+}
+
+.about-one img{
+  width: 600px;
+}
+
+.about-two p {
+  font-size: 3rem;
+  padding: 20px 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+nav ul li a {
+  font-size: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+/****About****/
+  .about-one h1 {
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+  .about-one img{
+    width: 300px;
+    padding-top: 80px;
+    padding-left: 100px;
+  }
 }
