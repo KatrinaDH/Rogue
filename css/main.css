@@ -76,7 +76,7 @@ nav ul li a {
 
 /***** BOTTOM-SECTION *****/
 
-.bottom-section .full-width {
+.bottom-section .bottom-wrap {
     border-top: 1px solid #dedbdc;
 }
 
@@ -105,7 +105,6 @@ ul#menu {
     list-style: none;
     margin: 20px;
     display: flex;
-
   }
 
 h3 {
@@ -200,47 +199,75 @@ footer h2 span{
 
 @media only screen and (min-width: 1200px) {
 
-/***  .full-width {
-      margin: 0 auto;
-      width: 1200px;
-  }
-
-  .section-one, .section-two{
-      height: auto;
-      float: left;
-      width: 340px;
-  }
-
-  .section-three{
-    height: auto;
-    float: left;
-    width: 338px;
-  }
-
-  .third-width {
-    float: left;
-    width: 400px;
-  } ***/
+header h1 {
+  font-size: 30px;
+}
 
 nav ul li a {
-  font-size: 1rem;
+  font-size: 14px;
+  line-height: 23px;
+  padding-right: 40px;
 }
 
-nav {
+.top-section h2 {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.top-section p {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+h3 {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+#menu li {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+#reviews, #contact {
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0px;
+}
+
+.bottom-wrap {
   display: flex;
-  justify-content: flex-end;
 }
 
+footer h2 {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+footer h2 span {
+    font-size: 16px;
+
+}
+
+.section-one, .section-two, .section-three {
+  width: 450px;
+  padding: 30px;
+}
+
+#menu li {
+  margin: 0px;
+  padding-bottom: 20px;
+}
 
 
 /****About****/
-  .about-one h1 {
-    padding-top: 100px;
-    padding-left: 100px;
-  }
-  .about-one img{
-    width: 300px;
-    padding-top: 80px;
-    padding-left: 100px;
-  }
+.about-one h1 {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.about-one img{
+  width: 300px;
+  padding-top: 80px;
+  padding-left: 100px;
+}
 }
