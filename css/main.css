@@ -264,13 +264,51 @@ footer h2 span {
 
 
 /****About****/
-.about-one h1 {
-  padding-top: 100px;
-  padding-left: 100px;
-}
 .about-one img{
   width: 300px;
-  padding-top: 80px;
-  padding-left: 100px;
+  padding: 30px 50px 0 100px;
 }
+
+.about-one h2 {
+  font-size: 30px;
+  padding-left: 60px;
+}
+
+.about-two p {
+  font-size: 16px;
+  padding: 20px 80px;
+}
+
+.natasha {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+/***** Locations *****/
+
+.updates p {
+  font-size: 30px;
+}
+
+#locations h3 {
+  font-size:  18px;
+  line-height: 23px;
+}
+
+#locations p {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.location-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+#locations .third-width {
+  padding: 0px 40px;
+}
+
 }
