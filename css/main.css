@@ -166,6 +166,7 @@ footer h2 span{
 }
 
 #locations h3 {
+
     font-size:  50px;
     line-height: 32px;
     margin-top: 100px;
@@ -185,6 +186,7 @@ footer h2 span{
 
 .about-one h2 {
   font-size: 4rem;
+  color: #77a466;
 }
 
 .about-one img{
